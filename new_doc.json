@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "how you doing?", "where were you all these days?", "too busy huh"],
+         "responses": ["Hello!", "Hey", "M fine what about you?", "Hi, Long time no see", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "ttyl", "byee"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "sayonara", "will meet back soon", "bbb-bye"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!", "eighteen huh"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Anna.", "I'm Anna!", "I'm Anna."],
+         "context_set": ""
+        },
+        {"tag": "news",
+         "patterns": ["what's going on in the world", "u saw the recent incident", "what are ur opinions abt it?", "the secnario's changing", "nowadays no one knows what happens", "gov is ruling"],
+         "responses": ["yeah! everything is just unpredictable", "the media is ruthless", "it was terrible", "the people were horrified", "the world seems a mess", "difficult to survive"],
+         "context_set": ""
+        },
+        {"tag": "morning",
+         "patterns": ["good morning", "u had breakfast?", "how was yesterday", "what are ur plans for today?"],
+         "responses": ["gud morning", "yeah, just now", "nothing as such", "will just chill"],
+         "context_set": ""
+        },
+	{"tag": "night",
+	 "patterns":["good night", "m feeling sleepy", "sweet dreams"],
+	 "responses":["gn", "sweet dreams"],
+	 "context_set": ""
+	},
+	{"tag":"general",
+	 "patterns":["what you doin?", "u have anything interesting to do?"],
+	 "responses":["eating and sleeping", "watching movies and eating home cooked stuff:)", "talking to you:)"],
+	 "context_set": ""
+	},
+	{"tag":"study",
+	 "patterns":["how's your clg", "whats going in ur college", "how were ur marks last sem?", "is everything ok there"],
+	 "responses":["yeah, everything is going well", "good"],
+	 "context_set": ""
+	}
+   ]
+}
